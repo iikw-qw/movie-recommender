@@ -1,0 +1,30 @@
+{
+  "users": 1500,
+  "items": 400,
+  "ratings": 19449,
+  "sparsity": 0.968,
+  "test_ratings": 3702,
+  "metrics": {
+    "popularity": {
+      "rmse": 1.2933,
+      "precision@k": 0.0087,
+      "recall@k": 0.052,
+      "ndcg@k": 0.0288,
+      "users": 1032.0
+    },
+    "bias_model": {
+      "rmse": 1.2904,
+      "precision@k": 0.0122,
+      "recall@k": 0.0724,
+      "ndcg@k": 0.0454,
+      "users": 1032.0
+    },
+    "als": {
+      "rmse": 1.0774,
+      "precision@k": 0.0329,
+      "recall@k": 0.1944,
+      "ndcg@k": 0.1294,
+      "users": 1032.0
+    }
+  }
+}
